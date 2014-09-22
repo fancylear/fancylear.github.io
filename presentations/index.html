@@ -41,7 +41,7 @@
 
 
 <div id="main" class="step" >
-  <h1>UIAutomator Python Wrapper分析</h1>
+  <h1>UIAutomator PythonWrapper分析</h1>
   <p class="footer">
     <span>Sep 2014</span> ·
     <span>李阳</span>
@@ -52,9 +52,12 @@
 
 
 <div id="uiautomator" class="step" data-x="-2500" data-y="-1000">
-  <h2>什么是Android UiAutomator？</h2>
+  <h2>关于...</h2>
   <p/>
-  <p class="substep"><a href="http://developer.android.com/tools/help/uiautomator/index.html">Android UiAutomator</a>: http://developer.android.com/tools/help/uiautomator/index.html</p>
+
+  <p class="substep"><a href="http://developer.android.com/tools/help/uiautomator/index.html">关于Android UiAutomator</a>: http://developer.android.com/tools/help/uiautomator/index.html</p>
+  <p>提醒：这个幻灯片部分引用了原作者关于介绍功能部分的内容</p>
+  <p>建议您使用1080p分辨率</p>
 </div>
 
 
@@ -84,14 +87,17 @@
 <div id="python-uiautomator" class="step" data-x="-500" data-y="-1000">
   <h2>pypi: uiautomator</h2>
   <p/>
-  <p class="substep"><a href="https://github.com/xiaocong/uiautomator">https://github.com/xiaocong/uiautomator</a></p>
+  <p class="substep"><a href="https://github.com/xiaocong/uiautomator">https://github.com/fancylear/uiautomator</a></p>
+  <p>1)使用python代替java</p>
+  <p>2)使用jsonrpcserver实现远端执行</p>
+  <p>3)手机变成了HTTPServer</p>
 </div>
 
 
 
 
 <div id="install" class="step" data-x="500" data-y="-1000">
-  <h3>安装</h3>
+  <h3>安装方法</h3>
   <pre><code class="shell">$ [sudo] pip install uiautomator</code></pre>
 </div>
 
@@ -460,6 +466,7 @@ d(text="Clock").wait.gone(timeout=5000)</code></pre>
 
 <div id="thanks" class="step" data-scale="5">
   <h1>谢谢 !</h1>
+  <a href="fancylear.github.io">返回主页</a>
 </div>
 
 
@@ -469,33 +476,13 @@ d(text="Clock").wait.gone(timeout=5000)</code></pre>
 
 
 
-<div class="hint"><p>Use a spacebar or arrow keys to navigate</p></div>
+<div class="hint"><p>请使用空格/方向键来导航</p></div>
 </div>
 <div id="timer"></div>
 
 <script src="/customize/impress.js/js/highlight.pack.js"></script>
 <script src="/customize/impress.js/js/impress.js"></script>
 <script src="/customize/impress.js/js/default.js"></script>
-
-<div style="position: fixed; bottom: 10px; left: 10px; pointer-events: auto;">
-    <a href="http://twitter.com/share" class="twitter-share-button" data-text="使用Python脚步语言编写Android UiAutomator测试用例 - 葱丝瓣酱 by @xiaocong}" data-url="http://xiaocong.github.io/slides/android-uiautomator-and-python/index.html" data-related="bartaz"></a>
-    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-</div>
-
-
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-32376813-1']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-
-
 
 </body>
 </html>
