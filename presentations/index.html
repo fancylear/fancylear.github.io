@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=1024" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <title>UIAutomator ：Python wrapper分析</title>
+  <title>Python wrapper功能</title>
     
   <meta name="author" content="李阳">
   
@@ -34,14 +34,14 @@
       will also handle it.</p>
   </div>
   <div id="fm2" class="fallback-message">
-    <p>If you have fast machine and recent Google Chrome or Safari installed,
-      please check <a href="index.html">a bit more "moving" version of that presentation</a></p>
-    <p style="text-align:center"><big>Otherwise, scroll down to see the slides</big></p>
+    <p>如果你有Google Chrome浏览器,
+      请尝试访问 <a href="index.html">更生动的版本</a></p>
+    <p style="text-align:center"><big>如果不是，请滑动浏览</big></p>
   </div>
 
 
 <div id="main" class="step" >
-  <h1>UIAutomator PythonWrapper分析</h1>
+  <h1>Python Wrapper功能</h1>
   <p class="footer">
     <span>Sep 2014</span> ·
     <span>李阳</span>
@@ -56,7 +56,7 @@
   <p/>
 
   <p class="substep"><a href="http://developer.android.com/tools/help/uiautomator/index.html">关于Android UiAutomator</a>: http://developer.android.com/tools/help/uiautomator/index.html</p>
-  <p>提醒：这个幻灯片部分引用了原作者关于介绍功能部分的内容</p>
+  <p>提醒：这个幻灯片引用了原作者关于介绍功能部分的内容，有修改</p>
   <p>建议您使用1080p分辨率</p>
 </div>
 
@@ -85,7 +85,7 @@
 
 
 <div id="python-uiautomator" class="step" data-x="-500" data-y="-1000">
-  <h2>pypi: uiautomator</h2>
+  <h3>解决方案:pypi:uiautomator</h3>
   <p/>
   <p class="substep"><a href="https://github.com/xiaocong/uiautomator">https://github.com/fancylear/uiautomator</a></p>
   <p>1)使用python代替java</p>
@@ -95,17 +95,8 @@
 
 
 
-
-<div id="install" class="step" data-x="500" data-y="-1000">
-  <h3>安装方法</h3>
-  <pre><code class="shell">$ [sudo] pip install uiautomator</code></pre>
-</div>
-
-
-
-
 <div id="first-usage" class="step" data-x="1500" data-y="-1000">
-  <h3>初步使用uiautomator</h3>
+  <h3>初步使用</h3>
   <pre><code class="python">from uiautomator import device as d
 
 d.screen.on()
@@ -113,7 +104,7 @@ d(resourceId="android:id/glow_pad_view").swipe.down()
 d(text="Camera").click()
 d.press.back()
 d.press.power()</code></pre>
-  <p class="substep">在原生Android 4.3 锁屏界面运行如上代码得到如下结果：</p>
+  <p class="substep">在原生Android 4.3 锁屏界面运行以上代码得到如下结果：</p>
   <ul>
     <li>点亮屏幕</li>
     <li>向下滑动解锁图标</li>
@@ -450,27 +441,10 @@ d(text="Clock").wait.gone(timeout=5000)</code></pre>
   </ul>
 </div>
 
-
-
-
-<div id="references" class="step" data-scale="2">
-  <h2>参考</h2>
-  <ul>
-    <li><p style="font-size:60%">Android uiautomator: http://developer.android.com/tools/help/uiautomator/index.html</p></li>
-    <li><p style="font-size:60%">Github Repo: https://github.com/xiaocong/uiautomator</p></li>
-  </ul>
-</div>
-
-
-
-
 <div id="thanks" class="step" data-scale="5">
   <h1>谢谢 !</h1>
-  <a href="fancylear.github.io">返回主页</a>
+  <a href="http://fancylear.github.io">返回主页</a>
 </div>
-
-
-
 
 <div id="overview" class="step" data-scale="10"></div>
 
