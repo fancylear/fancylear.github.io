@@ -1,4 +1,4 @@
-Fancy‘s Github Environment
+Github Pages Hosting Environment
 
 
 EXAMPLES AND OTHER LEARNING RESOURCES
